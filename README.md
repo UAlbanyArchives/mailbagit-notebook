@@ -28,4 +28,4 @@ jupyter notebook --no-browser mailbagit-vtd.ipynb
 
 ### Visit Notebook on host
 
-http://localhost:8888/notebooks/mailbagit-vtd.ipynb
+http://localhost:8888/notebooks/mailbagit-vtd.ipynb (with the token displayed in the Docker container)
