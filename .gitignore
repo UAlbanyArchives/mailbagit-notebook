@@ -28,8 +28,9 @@ share/python-wheels/
 MANIFEST
 
 sampleData/*
-.jupyter/*
-Dockerfile
+sampleData1/*
+.jupyter/jupyter_notebook_config.json
+#Dockerfile
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
