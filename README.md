@@ -1,14 +1,7 @@
 # mailbagit-notebook
 Jupyter notebooks for exploring mailbagit
 
-
-### Option 1: Build docker image
-
-```
-sudo docker build -t ualbanyarchives/mailbagit:vtd .
-```
-
-### Option 2: Pull docker image
+### Pull docker image
 
 ```
 sudo docker pull ualbanyarchives/mailbagit:vtd
@@ -29,3 +22,10 @@ jupyter notebook --no-browser mailbagit-vtd.ipynb
 ### Visit Notebook on host
 
 http://localhost:8888/notebooks/mailbagit-vtd.ipynb (with the token displayed in the Docker container)
+
+
+### For building the Docker image
+
+```
+sudo docker build -t ualbanyarchives/mailbagit:vtd .
+```
